@@ -15,6 +15,12 @@
 
 # About Us 
 ---
+Commerz is a Swedish tech partner that helps businesses unlock the full potential of their digital commerce. With decades of experience in retail, B2B, logistics, and ERP integrations, we specialize in delivering robust, scalable, and tailor-made digital solutions - from architecture and development to strategy and long-term partnerships.
+
+We work with organizations that require more than just out-of-the-box functionality. Our clients typically operate in complex environments where integrations, business logic, and performance are key. That’s why we often recommend a headless architecture and Sylius has become a natural fit.
+
+As an official Sylius partner, we’ve built advanced solutions including plugins and custom modules that solve real-world challenges. Our team of experienced developers combines deep platform knowledge with a strong focus on business outcomes.
+
 
 
 ## Table of Content

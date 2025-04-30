@@ -40,8 +40,6 @@ As an official Sylius partner, we’ve built advanced solutions including plugin
 
 ***
 
-This plugin allows you to integrate Przelewy24 payment with the Sylius platform app. It includes all Sylius and Przelewy24 payment features.
-
 # Installation
 ---
 The complete installation guide can be found **[here](doc/installation.md).**
@@ -65,6 +63,13 @@ Run the below command to see what Symfony services are shared with this plugin:
 
 ```
 $ bin/console debug:container commerzsylius_swish_plugin
+```
+
+
+Run the below command to see custom routes created for this plugin:
+
+```
+$ bin/console debug:route commerzsylius_swish_plugin
 ```
 
 # Functionalities

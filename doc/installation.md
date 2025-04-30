@@ -26,17 +26,6 @@ composer require commerz/swish-plugin
 ```
 
 ## Basic configuration:
-Add plugin dependencies to your `config/bundles.php` file:
-
-```php
-# config/bundles.php
-
-return [
-    ...
-    Commerz\SyliusSwishPlugin\CommerzSwishPlugin::class => ['all' => true],
-];
-```
-
 Add route in your `config/routes/sylius_shop.yaml` file:
 ```yaml
 ...

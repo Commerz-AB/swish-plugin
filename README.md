@@ -92,7 +92,7 @@ All main functionalities of the plugin are described **[here](doc/functionalitie
 # Demo 
 ---
 
-A demo app with some useful use-cases of plugins! Visit http://demo.sylius.com/ to take a look at it.
+We don't have a Sylius installation with the Swish plugin installed by default, but feel free to visit http://demo.sylius.com/ to take a look at Sylius!
 
 # License
 ---

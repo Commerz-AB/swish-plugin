@@ -1,8 +1,8 @@
 ![hero_swish_github](https://github.com/user-attachments/assets/97aabd48-2410-4293-80f6-9848d51eba6b)
 
+# About the plugin
 
-
-# Swish Payment Plugin by Commerz
+<b>The Swish Payment Plugin by Commerz</b> provides seamless Swish payment integration for your Sylius eCommerce platform, enabling merchants to accept real-time mobile payments directly from customers’ banking apps. With a direct connection to Swish, no intermediaries the plugin ensures fast, secure, and reliable transactions. Designed for simplicity and performance, this plugin is easy to install, manage, and maintain, making it an ideal solution for merchants targeting the Swedish market.
 
 # About Us 
 
@@ -16,7 +16,6 @@ As an official Sylius partner, we’ve built advanced solutions including plugin
 
 ## Table of Content
 
-* [Overview](#overview)
 * [Installation](#installation)
   * [Requirements](#requirements)
   * [Customization](#customization)
@@ -24,10 +23,6 @@ As an official Sylius partner, we’ve built advanced solutions including plugin
 * [Functionalities](#functionalities)
 * [Demo](#demo)
 * [License](#license)
-
-# Overview
-
-<b>The Swish Payment Plugin by Commerz</b> provides seamless Swish payment integration for your Sylius eCommerce platform, enabling merchants to accept real-time mobile payments directly from customers’ banking apps. With a direct connection to Swish, no intermediaries the plugin ensures fast, secure, and reliable transactions. Designed for simplicity and performance, this plugin is easy to install, manage, and maintain, making it an ideal solution for merchants targeting the Swedish market.
 
 # Installation
 

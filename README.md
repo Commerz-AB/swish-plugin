@@ -2,7 +2,7 @@
 
 
 
-# Commerz SyliusSwishPlugin
+# Swish Payment Plugin by Commerz
 
 # About Us 
 

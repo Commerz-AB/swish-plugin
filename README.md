@@ -1,20 +1,11 @@
-<p align="center">
-    <a href="https://sylius.com" target="_blank">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://media.sylius.com/sylius-logo-800-dark.png">
-          <source media="(prefers-color-scheme: light)" srcset="https://media.sylius.com/sylius-logo-800.png">
-          <img alt="Sylius Logo." src="https://media.sylius.com/sylius-logo-800.png">
-        </picture>
-    </a>
-</p>
+![hero_swish_github](https://github.com/user-attachments/assets/97aabd48-2410-4293-80f6-9848d51eba6b)
+
 
 
 # Commerz SyliusSwishPlugin
-----
-
 
 # About Us 
----
+
 Commerz is a Swedish tech partner that helps businesses unlock the full potential of their digital commerce. With decades of experience in retail, B2B, logistics, and ERP integrations, we specialize in delivering robust, scalable, and tailor-made digital solutions - from architecture and development to strategy and long-term partnerships.
 
 We work with organizations that require more than just out-of-the-box functionality. Our clients typically operate in complex environments where integrations, business logic, and performance are key. That’s why we often recommend a headless architecture and Sylius has become a natural fit.
@@ -24,8 +15,6 @@ As an official Sylius partner, we’ve built advanced solutions including plugin
 
 
 ## Table of Content
-
-***
 
 * [Overview](#overview)
 * [Installation](#installation)
@@ -83,20 +72,13 @@ $ bin/console debug:route commerzsylius_swish_plugin
 ```
 
 # Functionalities
----
 
 All main functionalities of the plugin are described **[here](doc/functionalities.md).**
 
----
-
 # Demo 
----
 
 We don't have a Sylius installation with the Swish plugin installed by default, but feel free to visit http://demo.sylius.com/ to take a look at Sylius!
 
 # License
----
 
 This plugin's source code is completely free and released under the terms of the MIT license.
-
----

@@ -40,7 +40,7 @@ These credentials are mandatory for enabling the connection between your Sylius 
 To get started with Swish, please contact your bank or visit Swish's official website for more information:<br />
 **https://www.getswish.se/foretag/** (in Swedish)
 
-A quick rundown on using/creating Swish-certificates **<a href="https://www.commerz.se/artiklar/hur-du-skapar-och-installerar-swish-certifikat-for-produktion/" target="_blank">is published here</a>** (in Swedish).
+A quick rundown on converting/handling the Swish-certificates **<a href="https://www.commerz.se/artiklar/hur-du-skapar-och-installerar-swish-certifikat-for-produktion/" target="_blank">is published here</a>** (in Swedish).
 
 
 We work on stable, supported, and up-to-date versions of packages. We recommend you to do the same.

@@ -63,7 +63,7 @@ $ bin/console debug:container commerzsylius_swish_plugin
 Run the below command to see custom routes created for this plugin:
 
 ```
-$ bin/console debug:router | grep swish
+$ bin/console debug:router swish
 ```
 
 # Functionalities

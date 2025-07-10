@@ -16,8 +16,6 @@
     },
     "require-dev": {
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Commerz\\SwishPlugin\\": "src/",

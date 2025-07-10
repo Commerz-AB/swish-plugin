@@ -1,0 +1,5 @@
+commerz_swish_plugin:
+  environment:
+    not_blank: "Environment cannot be blank."
+  payee_alias:
+    not_blank: "Payee alias cannot be blank."

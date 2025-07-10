@@ -1,0 +1,33 @@
+
+services:
+    commerz_swish_plugin.action.capture:
+        class: Commerz\SwishPlugin\Action\CaptureAction
+        public: true
+        arguments:
+            - "@commerz_swish_plugin.bridge.swish"
+        tags:
+            - { name: payum.action, factory: swish, alias: payum.action.capture }
+
+    commerz_swish_plugin.action.notify:
+        class: Commerz\SwishPlugin\Action\NotifyAction
+        public: true
+        arguments:
+            - "@commerz_swish_plugin.bridge.swish"
+        tags:
+            - { name: payum.action, factory: swish, alias: payum.action.notify }
+
+    commerz_swish_plugin.action.status:
+        class: Commerz\SwishPlugin\Action\StatusAction
+        public: true
+        arguments:
+            - "@commerz_swish_plugin.bridge.swish"
+        tags:
+            - { name: payum.action, factory: swish, alias: payum.action.status }
+
+    commerz_swish_plugin.action.convert_payment:
+        class: Commerz\SwishPlugin\Action\ConvertPaymentAction
+        public: true
+        arguments:
+            - "@sylius.payment_description_provider"
+        tags:
+            - { name: payum.action, factory: swish, alias: payum.action.convert_payment }

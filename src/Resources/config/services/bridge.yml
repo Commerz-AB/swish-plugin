@@ -1,0 +1,10 @@
+services:
+    commerz_swish_plugin.http_client:
+        class: GuzzleHttp\Client
+        public: false
+
+    commerz_swish_plugin.bridge.swish:
+        class: Commerz\SwishPlugin\Bridge\SwishBridge
+        public: true
+        arguments:
+            - "@commerz_swish_plugin.http_client"

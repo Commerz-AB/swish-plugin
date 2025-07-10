@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: Commerz\SwishPlugin
+        swish_prefix: Commerz\SwishPlugin

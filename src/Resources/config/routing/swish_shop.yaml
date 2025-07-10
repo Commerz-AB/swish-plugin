@@ -1,0 +1,11 @@
+swish_payment_status:
+    path: /payment/swish/status
+    controller: Commerz\SwishPlugin\Controller\PaymentStatusController::checkStatus
+
+swish_callback:
+    path: /payment/swish/callback
+    controller: Commerz\SwishPlugin\Controller\CallbackController::callback
+
+swish_pending:
+    path: /{_locale}/payment/swish/pending
+    controller: Commerz\SwishPlugin\Controller\PendingPageController::index

@@ -1,0 +1,6 @@
+services:
+    commerz_swish_plugin.form.type.swish_gateway_configuration:
+        class: Commerz\SwishPlugin\Form\Type\SwishGatewayConfigurationType
+        tags:
+            - { name: sylius.gateway_configuration_type, type: swish, label: commerz_swish_plugin.ui.swish_gateway_label }
+            - { name: form.type }

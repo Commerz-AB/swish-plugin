@@ -1,0 +1,7 @@
+services:
+    commerz_swish_plugin.gateway_factory.swish:
+        class: Payum\Core\Bridge\Symfony\Builder\GatewayFactoryBuilder
+        arguments:
+            -  Commerz\SwishPlugin\SwishGatewayFactory
+        tags:
+            - { name: payum.gateway_factory_builder, factory: swish }

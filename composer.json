@@ -1,0 +1,44 @@
+{
+    "name": "commerz/swish-plugin",
+    "description": "Swish payment plugin for Sylius.",
+    "type": "sylius-plugin",
+    "license": "MIT",
+    "keywords": [
+        "sylius",
+        "sylius-plugin"
+    ],
+
+    "require": {
+        "php": "^8.0",
+        "sylius/sylius": "*",
+        "php-http/message-factory": "^1.1",
+        "league/flysystem-bundle": "*"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Commerz\\SwishPlugin\\": "src/",
+            "Tests\\Commerz\\SwishPlugin\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Commerz\\SwishPlugin\\Tests\\": "tests/"
+        },
+        "classmap": ["tests/Application/Kernel.php"]
+    },
+    "conflict": {
+        "symfony/framework-bundle": "6.2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true,
+            "composer/package-versions-deprecated": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}

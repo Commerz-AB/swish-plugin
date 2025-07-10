@@ -1,0 +1,11 @@
+commerz_swish_plugin:
+  ui:
+    production: "Production"
+    sandbox: "Sandbox"
+    merchant_id: "Merchant id"
+    crc_key: "CRC Key"
+    environment: "Environment"
+    payee_alias: "Payee alias"
+    merchant_certificate: "Merchant certificate placeholder"
+    smc_pass: "Certificate password"
+    swish_gateway_label: "Swish"

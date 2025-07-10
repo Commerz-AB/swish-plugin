@@ -7,7 +7,7 @@ namespace Commerz\SwishPlugin;
 use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class CommerzSwishPlugin extends Bundle
+final class SwishPlugin extends Bundle
 {
     use SyliusPluginTrait;
 }

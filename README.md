@@ -57,7 +57,7 @@ We work on stable, supported, and up-to-date versions of packages. We recommend 
 Run the below command to see what Symfony services are shared with this plugin:
 
 ```
-$ bin/console debug:container commerzsylius_swish_plugin
+$ bin/console debug:container commerz_swish_plugin
 ```
 
 Run the below command to see custom routes created for this plugin:

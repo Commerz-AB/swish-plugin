@@ -33,16 +33,16 @@ Add plugin dependencies to your `config/bundles.php` file:
 
 return [
     ...
-    Commerz\SyliusSwishPlugin\CommerzSwishPlugin::class => ['all' => true],
+    Commerz\SwishPlugin\SwishPlugin::class => ['all' => true],
 ];
 ```
 
 Add route in your `config/routes/sylius_shop.yaml` file:
 ```yaml
 ...
-# Commerzsylius\SwishPlugin\CommerzsyliusSwishPlugin
+# Commerz\SwishPlugin\CommerzSwishPlugin
 commerz_swish_shop:
-    resource: "@CommerzsyliusSwishPlugin/Resources/config/routing/swish_shop.yaml"
+    resource: "@SwishPlugin/Resources/config/routing/swish_shop.yaml"
 ```
 
 ## Known issues
